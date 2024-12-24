@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <!--JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Universitas Yarsi Madani",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Aria Santika No.40A, RT.005/RW.011, Margasari",
+          "addressLocality": "Kec. Karawaci",
+          "addressRegion": "Banten",
+          "postalCode": "15114",
+          "addressCountry": "Indonesia" 
+        },
+        "telephone": "+62 21 55726558",
+        "openingHours": "Mo-Sa 08:00-21:48",
+        "alumni": {
+          "@type": "Person",
+          "name": "Tyara Nur Hidayah",
+          "identifier": "23050574",
+          "affiliation": {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yarsi Madani"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yarsi Madani"
+          },
+          "knowsAbout": "Jaringan Semantik" 
+        }
+      }
+      </script>
+</head>
+<body>
+  <header class="bg-white">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <div class="md:flex md:items-center md:gap-12">
+          <a class="block text-teal-600" href="#">
+            <span class="sr-only">Home</span>
+          </a>
+        </div>
+  
+        <div class="hidden md:block">
+          <nav aria-label="Global">
+            <ul class="flex items-center gap-6 text-sm">
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+  
+        <div class="flex items-center gap-4">
+          <div class="sm:flex sm:gap-4">
+            <a
+              
+              >
+                
+              </a>
+            </div>
+          </div>
+  
+          <div class="block md:hidden">
+            <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- PROMOTION COMPONENT -->
+    
+    <section class="overflow-hidden rounded-lg shadow-2xl md:grid md:grid-cols-3">
+      <img
+        alt=""
+        src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="h-25 w-xs object-cover md:h-full"
+      />
+    
+      <div class="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
+        <p class="text-sm font-semibold uppercase tracking-widest"> </p>
+    
+        <h2 class="mt-6 font-black uppercase">
+          <span class="text-3xl font-black sm:text-3xl lg:text-3xl"> Get 30% off </span>
+    
+          <span class="mt-2 block text-sm"></span>
+        </h2>
+    
+        <a
+          class="mt-8 inline-block w-full bg-black py-3 text-sm font-bold uppercase tracking-widest text-white"
+          href="#"
+        >
+          Get Discount
+        </a>
+    
+        <p class=" font-medium uppercase text-gray-400">
+          
+        </p>
+      </div>
+    </section>
+      <!-- END PROMOTION  -->
+
+      <!-- NAVBAR  -->
+      <header class="bg-indigo">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">TYARA STORE</h1>
+      
+              <p class="mt-1.5 text-sm text-gray-500">
+                Belanja  peralatan olahraga langkah & murah meriah!!
+              </p>
+            </div>
+      
+            <div class="flex items-center gap-4">
+              <a
+                 href="cara-belanja.html"
+                class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring"
+                type="button"
+              >
+                <span class="text-sm font-medium"> Cara belanja  </span>
+            </a>
+      
+              <button
+                class="inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                type="button"
+              >
+                Chat Admin
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- END NAVBAR  -->
+
+      <!-- CALL TO ACTION  -->
+<section class="bg-indigo-50">
+    <div class="mx-auto max-w-lg ">
+      <div class=" text-center">
+        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl ">
+          
+        </h2>
+  
+        <p class="hidden text-gray-900 sm:mt-4 sm:block">
+          
+        </p>
+      </div>
+  
+      <div class="mx-auto mt-8 max-w-xl ">
+        <form action="#" class="sm:flex sm:gap-4">
+          <div class="sm:flex-1">
+            
+            <input
+              type="text"
+              placeholder="perlengkapan olahraga "
+              class="w-full rounded-md border-gray-100 bg-indigo p-3 text-gray-100 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-indigo-400"
+            />
+          </div>
+  
+          <button
+            type="submit"
+            class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-indigo-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-indigo-200 sm:mt-0 sm:w-auto"
+          >
+            <span class="text-sm font-medium"> Cari barang  </span>
+  
+            <svg
+              class="size-5 rtl:rotate-50"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+      <!-- END CALL TO ACTION  -->
+
+      <!-- PRODUCT LIST -->
+       <div class=" container grid grid-cols-3 gap-4 max-w-xl mx-auto py-8">
+        <a 
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1450&q=80"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1511167814253-23b850fcd859?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="absolute inset-0 h-full w-5xl object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              sepatu training
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp199.00</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://images.unsplash.com/photo-1511167814253-23b850fcd859?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="absolute inset-0 h-full w-5xl object-cover opacity-100 group-hover:opacity-0"
+            />
+        
+            <img
+              src="https://images.unsplash.com/photo-1511167814253-23b850fcd859?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="absolute inset-0 h-full w-5xl object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              Sepatu Bola 
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp399.00</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a 
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block ">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAD5APkDASIAAhEBAxEB/8QAHAABAAEFAQEAAAAAAAAAAAAAAAUBAgQGBwMI/8QARhAAAQQCAAQDBQUGAwUGBwAAAQACAwQFEQYSITETQVEUIjJhcQeBkaGxFSMzQlLBcoLRFjSTsvAkNWJzkuFDVWN0oqPS/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABsRAQEBAAMBAQAAAAAAAAAAAAABEQIhMRJB/9oADAMBAAIRAxEAPwDraIiAiIgIiICIiAiIgIiICIiAiKh7IK/ii4ZxrxFxBHxRmIquUyFaCpJDWgiq2ZYo2hkTCXcrCBskkn/2UM3jDjVoAbnsiQO3M9jj+LmkqaPoxF86/wC2nHH/AM9vf/p//hXN4445YdjOWz/iZXcPzjTR9EIuBRfaJx3G3/vON4/+rUquP4hgK2XhP7QcpZyb4eIshQjoGpNI2WWJlflna5nKwOZ06gu6EeX4tHWEXjWtVLsENqpPFPXmbzxSwvD43t2Rtrm9F7KgiIgIiICIiAiIgIiICIiAiIgorPFi/qVZPgf/AISsEu0OylqyM3xof608aH+sKNDncxJ7HqhJPUfNTTEkZoR/O1BNCSAJG7PYb7qN5ifJeVjrC/6H9E0xNosShI+Ss0vOy0lgJ76AGtrLWkEREHzfxW8ycTcTuJ7ZW4z/AIb/AAx+ihOvr/opbiV2+I+KCNEHNZPRH/3DwsfGNj9tqySV4rLIXtmNefmMU5aQGskDXNJG+p666dehWKMrHcM8T5WJtilj5DWO9WbMkVWu4Du5j53N2PoCsq7wXxhSjfNJjTNHG3mkNGaG25g9XRwuMmv8q37JZjip0MoZPjqD6lT2meOhG/2gRCN7hG2R3O3Y5HDTSPr10crBXeJ2mVl1z7TWvjLXTSBrwx5e33JHNa/ZIABBI98dubZ53nWscWAPrsHsqn3eUns3ZP0A6rcOO4qrso27BjpKLrXittNd0jnsRkbnYA0D3gepGwSN9ySdRZE6eWCBnxTyRQt+sr2sC3LvbOY+h+DKj6XC/Ddd4IeKEczgdAg2CbGjr05lsCtYxsbGRtADWNaxoHQANGgArl0BERAREQEREBERAREQEREBERBa8ba4erT+ij3FoA/upE+iipT10s1Yq0c5Gmk77Ad1cQwcxLo+gBO39vLqtVu8QZmtmb+MpfsyKCtXgmlkvtJLueFkh1qRrjsnQA+v1hZclxZNJBLBlZpXTRSWI21Q+KNrWOaCwRAa31BI0fqdLneWLjoLwWnq33T5g7B102CFZMAYpNH+V36LVhxDxJTqPfboY2yyPw2vmjsSRvkc7mEZbExnLshrj0A+E70eh2cvbJAHt+GSJsg3305vMFqXSs7GDVOI7+Ivd+elmrDxn+5V/kHf8xWYtzxkT0RR2csup4XO2mkh9fG3pmEHR52QuLdH6qj5tuzizdyFgb/7RctzjffUkz3jf4rJw9ynQyNWzdptuU2kstVySC+J+tlhBHvN7t6+WvPYjh0AHoAFXqsUdebw9wjxBBHY4esshOiXsqO8UtB6gWalh4la4dujvx8r4+FMbhWsu5bKSNY0czXzTDH14tEO0Q17pnu6dGjouPglpDmkhw7OBIcPoR1VS973cz3Oc7+p5Lj+J6rHyuti4ty2MzGWfNjYXx04o2wxvlBD5y0Bvich6tboBrB6DZ0XaGHw3F43EvDMegd5fHuIPYtjk8Q/ooka+ffyUjg7Hsud4csk6bDlqLnn/wABla135ErcmdRH0uiItgiIgIiICIiAiIgIiICIiAiIgoVFya2dqTeeVrj6AqImcR0HclSrGNYxODvPM1zG0bE5axomnrskkAYNNBd315d+ihpeDqDph7LPLXiL/hAgmZGD5NMpa8AfPa2Rgdr7gm9nR9N9VzvCVdREPDuHjaRJDJIQ3laXWZXPc4k7fL4ZEQ+QDf1Us8N8MtA6cugPkBpXgg/JUPmD9Rr0VnHPEZOM/wBzh+r/APmIWasHHOb4UkY/+HI78H+9/qs5bniC1zjiQx8J8SuB1ukY/wDiPZH/AHWxrUPtGkLOEcuB08WWhEfobUZP6KjgfmqhUVQfJYBEKBEXDsvaqD7XjQO/ttTX/FavELKoa/aGJ5vh/aFHf08dm0ivp5ERbBERAREQEREBERAREQEREBERB5zfw3fcol42/wC9Ss/8M/UKM1t+/moPZgHKFZoA9R66+i9WjQCteW6G/uTFeQHV3yOlcR8KN67Vf7FBdS9yzO3yfC13/peR/dSSj641bH/kSf8AM1SCRBaV9pruXhWwN/HeoNHz/e82vyW6rR/tPYXcLSEdo8jQefpzFn91RwzzTumk0sCqqArdFVHZEXD+6yscObJYZv8AVkaLfxsRrF0pDBsD87w3Gez8vjQfobLCqr6YREWgREQEREBERAREQEREBERAREQeNj+H/mH91Hj4j9VIWP4f+ZqwW9yivX0VD1QnRVNoi3z6enVVCAd/uRRV8H+9N/8AIk/5mrPWBWINpw821yf/AFP1/ZZ6RBad9pGv9kspvynx5H19pYFuK1fj+IS8I8QDWzHFXmHy8KxG/f6qj582q9fuToqjqsCnmqnQBJ6AdSikcLJh4srj5cwHux0MpmsMjj8UyGNpdGxzNjbS7XN17KiyXE5uvD7RYxeThg5GSeLNTsMi5XkBri8t1o7GvqprhnA5ufiHAuNOWJla3VyM3tGoXtrVrQie7kk0/fN01rfT5dNgyHGmEsUKuOrz23NuZKCTL2ZqUdfwqAnEz44oYCQToBo6k6HUknamcBnq+a45y0mMgM9KfGUfFtzeLFJCyo07DI3j+d7wNHXw7+sHR9qqItgiIgIiICIiAiIgIiICIiAiIg8p/wCG75Fp/MLBHxEKQkHMyQerSPyUf/MHDz6qKucEHUH6Eqruyo3sfogtLgxj3Oc1rWtL3OeQ1rWtGyXOd0AHmvKOxWm6xT15G65uaKeJ7Q0nQLi1xA+SiuJcfmspTq08barQROssfkmzmVhs1m6Pgtkia4gEjr069OvTTtWbwRkWUuL36xzMhl2QU6MNeax7LXpMsR2JGOfIznLjytA2D27+8oOjUutm2fIRQNBHUdS89CpBazwbi8ri8a+LJ2o57PNBA1sJ3DWr1oGQRwMOhvQG3HXUnz7nZlYgoPi6SGPhjiZ0xHIcXbjG+v7yRhYwfiQpxanx7TyeSwM2Px1ZlieeaCV4fO2Hw4YHCVzm87g0noBonXc9wqOAKo0sl9DJMrRXJKNxlOVofHZfXlbXe0nlDhKW8ut9B1WMQW65g5vXQDmuaSfkHBZD70KbHffTtsK0uUFQuq/ZBA3l4osnq4yUK4+TWiWQ/qPwXKGuK6v9j8n7viqHfVsuOk1/ibM3f5KwdWREWgREQEREBERAREQEREBERAREQUWA4APkHkHuA/NZFy3UoVrFy5MyCtXYZJpZDpjG9uvn8gsKGeK3DFbrvbLBYYJ4pY9ljmSdWuB9Fmq9PT6/3T0+n9lTY9fT9Sm+m/l/YKCuv+vxVNDpvtsb/HauBHX6n9Snf8tqj2otLa0ZPxPdLI75l73OWUvCqdwRg92bYfq0r3ViC0/jC5mYKHEEtOKg6nBibMFl9iSzDbikkjLTJX5WujcAHjQOuo7+m4LnvHUOVdj8iI8hyV8lkMfjhRlqxFrjLM1oLLDOWUA8vM7qfQa8lGDkb1qrwvh8XawWUrx+Nw3T52Pp2opWQTwycjRBL4nM/l6Dwx16bWVk+IsQ/iLhCxMMlDHVZnzMLmLvxyNfPBExgZH4Re7sdloOvPW158Sz8SMbwtBbo4ucu4nx0kP7LtzxPsS1Q94iMdxnK0HfxeIdffsXZLMzt4j4OmtYXOVjBBnW+E2KC3JMZ4omk1xTldsM1t/bWx0UGhcc3cffz9ixRLnQOqUmbdXmrnxGMIduOdjX+nXlWr+QW18eXGXuIJrDILsDXU6TAy/WkrTHkY5vN4cvvaPkVqv9lBZ1XUPshfq5xOzfV9bHv1/gfKP7rmHmt5+y+/HU4ldWkOm5KjNWj35zRObO0fgHKwd1REWgREQEREBERAREQEREBERAREQafxw/H24sHw7b9v3nsgyFn7PfC17RDo88vjNILGlzXEdPh7+usRUX3uN8ZNi8tSkxWMfBQNWnddHbr1MZEW+BLWk5XuaXA7LQ4Hm9FsGbyBg4qc+xRqvqYXhizmWWpIdWI52vkYWQ2PIOGgRo+vdaJws3h+SbibKUpsjVdXwV8zHJNisx1XWxyGYTVuWR2uvTwgVmql8fmvtEEPGE9+DIsfUoPmxUNvHAObPJaa1oj/dbcGtJ6bI8/La2bhHIZzJYmWxmY5GXG3rMIElX2VxhayMs/d8rfUjev0Wm4Cvl48FxeylxJVtSeBi2UJq+SswMp6sFzuZ9wR+GXDoO29a+u3cGNzTMRaGWuC3aOQsPbKL8eQ1E6OLlb40b3jvvpvz+ag2WMEt38yry3WiPvVsR937yr3HsFoe1Y9ZB66d/ZZSxK+w7fkWH9VlqlF878T5rMDiLNxsyNs16eesWacRme+GCevK4MkjjeS0FvXXRfRC+ZuJoHwcRcSRP7ty193bWw+Z0jT1+RClRny8b8S2bWGtXJK1h+JtOt1mvrRxsfK5vITMIeXf5KWb9oBsZrA5O/jmMjxcWQhMdGVxdJ7YxrC4eOddNdt/etDVCdKDauNM7i+IMrVvY8WBG3HQVpRajbG8SxySu7Nc4EaI81rO15jZ6q5QNjfdZFK5Nj7lG/X/jUrMNqProExPD+U68j2K8AAq6Hog+p6tmC5Wq24HB0FqCKxC4eccrQ9p/Ney0H7L8y2/gnY2V4NnDyeCAT7zqkpL4nfd7zf8AKPVb8tgiIgIiICIiAiIgIiICIiAiIUEFlOSSWWJ7WvjIDXseA5jgW6Ic09CFDjCYGOvkq0WOqww5GJsN1lZpg8aNp5g0mIgjR9NKZvRn2qT0cA8H16LCkdo6d1/TXzWL66SIGLhPCxY7O4uk6evFlxW8eRzxO6P2eQSMDBJrp33s+ff0k+FcA/h2lep+1ttNsXXW2PbCYeUOiZGWubzOG/d9VlRvaCTrp+SkYC5zdnej2VjPJ7M0Oio5xG9gqpA6K4O1oO+i0y8eacEGMOBB2CDrX1BUjDKZAQ4APaBzAdj8wsc6A6dyrBIWFrx1Le49R5hBIri32q4V9XKVc1Ew+z5KNsFhw7NtwN0N/wCJoGv8BXZ2ua9rXNOw4Ag/JRuew1TPYq9jLPRs7AYpNbMM7DzRyj6Hv8tjzQfMeyewVOX16lbZxTw1VwxrinI8vZE5tytI4yTs8IhjrTuUaDCSAd6GyNb37sLisRkMvN4dZnLEx7G2LMocK9cOIG5HAd/kP0GxnRHotgz/AA1awdiqxrpLVe5tlSRsepHzM0Hw+E0k8wJGtd9+oOoexVsVJpq1mJ8U8LuSWOQaex2gdEKDwCqqa12+9O6DYeD86eHs7TuPcRTm/wCx3x5ezyuHv/5CA77j6r6MaQQCCCCAQQdgg9iCvlPp/qu3/ZrxGMpi/wBlWZN38QxkbS47dNS+GN/+X4D9B/UrBvyIi0CIiAiIgIiICIiAiIgIiIMS7WM8e2dJGjp5cw/p2tckhsvc5rgWNaSCJNbOvkP9Vtyw7lUStdIwfvWjfTu8Dy+vopkWVBwV2NILnE67DyB+QUk1zAAB0Wq8Q5wYerN7IIbOTNdtlkBdzez1SSDbljadlo9AfmdNG1hs4zEfDkeZsUJG2pXmGCtzEQyuBDDaDurxBvpvXxe6Ce5LW876bVrj/wCy1yrxfgZcNHmp5JYK7pfZXQvYXz+1DXNDEAAHa3vY6a9D0WwQywzxRSxSMlgmY2WGSM8zHscNtc0+irL2aeZgPmOhVNknqOmv+irYyQXDyP5r0KlHpWk8N3hOPuuJMfyJ7t/0WaoxwBH+ndZdeYvHI4++3/8AIeqQRmdw8N6nknw1o5Lc1R8L2DliNxjWODYJZddup0TvW1oTJZcc9mMpY2B0skMMVus6OWHFU7T+WFk8szWdWyDo5o6uLW9QXHfWFrHEeJmdHcyFGBtmxJXbXsUppXR1pmbI8UlgLg5oJLtdSGjsRtZ5QajFTq4vxb2UvmXJQeFHXu2HSHngLCxlWpXBcdH3mFrQ4nuT7yw7GFj4jyFLI3oJKVV8QihrRu5r1kMeSwXZG+6wn3gGtBI7E77ZscLajHZLLXjLkqZLRZskiAwSAtbFRgjbsc42CA0v5+pJHf1ZHeyR3KLNDGTv3HUjk8PJWJeYNHtcsXWNp18DXb33d5Lno5lmsf8AsvJ3qXOHtgl0xwc1xMbwHtDuX+YA6I9Qo7WlO5DB3YL2ZrVYn2oce575ZoNPZHHy+Jyyvadc4HxDv0PTp0gz2/67LoKKRwmXuYLJ0spU2X13aljJ02eB3SSJ31Hb0Oj5KO9EQfUePvVMnSp36j+etbhZPC7seVw7OHkR2I9Qspch+yziLwZp+HLT/wB3P4lrGFxGmygc00A3/V8Tfo71XXlsEREBERAREQEREBERAREQEREHNuKuFcbjrz+KoRbMUcrLFihTZoTW/ea1xm3tkbyQJNNPTYGufppcbJs3Na4hsPmgqU4vCyUFZpJDI4+lPGMceXkLR7zT/DG3HY1vvUjGSMfHI1r45GOY9jgC1zXDRaQfIrnvFPCOQlfjZMPNHWhqyBteLTo69UyvLpLJLPe5xvbj15gNHq3T5g55yTcQTmwXtx+IxkcXjcjS+viaZJ8OKBg+N8h3yDXM5xJOtFy6nwvc4edgoTinuho0WTe0tvSME9ZwJllfbcTyjm2X77denbQ5ne5staq8P4aB0LK1my5sMg9nFiwATNkrgcGhriASR1DWaaNfCfCxPG8s4fwIkngllhksFrAyTN22jrIT3ELOpiaT0G3O6kkQdyY5kjI5I3seyRrXsfGQ5j2OHM1zXDoQR2XqDta1wZXirYKGGHJw5CNliz71d5fXqOB2+tE54DuVp27ZA3zbHukLYjsb9QqL9KmnNIc06cOoKp4rQPfY5vzA2PyTo8ba4H01/dTBnQyiVvo4fEPReqjGvkY4P1pw/Bw9CpCORsrGvb2Pceh8wVRqWewlSG2zNBkh8Njm72+QUd9XyVYfhBf/AD6Gz281A6yWU8Rs3jY7HStYJ4YyBkrrD/PI/REbD0BaCXHXUjsuk2IIbUFitO3mhnifDK3ZG2PBadEdd+i5vbqyNyT+Hob0sDKtdjxBXDxcs15DycntZJIYRro0bPUEjSxyn6LZr1bGMsY/G472uahA72mrU5Y6deNrS8PsSjoH9/cALjs70uUWAOd72ta1r3Oe1rN8jQ4703ZJ0PLqusRXKVHkx2EqQ2bNfThBV9ynWjcfe9tnYCAR3LRzPPy3tRGY4ewdXC5CxPLBFeL3247Q5mNsWHkv9nrxbPudeUNHboSfXEuDm56feqK545e4Hf8AJWdl0HtXnsVZ69qtI6KxXlZPBI34o5IyHNcF9H8M5yHiHD0ckwBsr2mK3E078G1H0kZ9PNvyIXzUCug/ZfnfYMvLiZ36rZcDweY9GXYmnl1/jG2/UNVg7ciItAiIgIiICIiAiIgIiICIiAqENcC0gEEEEEbBB6EEFVRBzDjjhx2MpZXI4iO2W3xFBkOWxttOmx3imOCMt5+V7g3Y59dANaPu8/leMHSZWZsZXKVee/Y5JGexUrDW6pQNf73O7vOeXsQ0dCS/6Nc1rgWuAII0Qey5DxbhH8NZHJ8RNnilhtyeJj4rUUlqaPKTHZmaXHwx4Y25hdvrocp0C2DW5Z7WGpW8d4rormWrwz5esX+EyvXYHmOq9nbxnfFIDrQIZrq4LqvCsGar4ShHlZHyTkc1aOQbsQ1HAeDDO7uXgd/T4f5VySmDiIG8QZQmTIWA6zhKs4ikmnnmDz+1bQlBd4TD70YLTzu0ezet0eYz2Kw9iH9pXHWuIeaeOu0vc+OvJK5slt7pBziSfs3l1sEuPxDYd0Ak2eo2Cdtd0P0XmB1LojyP37zT0BPzC1vg58kGAklu5oXpKvPJcMkznjFRxR8xrvc8c/ugEk9j5bA26eq2quQgiuUrUNiF/wAEkR2PI8kjTpwI8wQCPRBlNla48sg5H67H4T9CqxSOrS+9vwpCA7/wk9A7/VeL+o08b9WnuPm0oHlgEcu3Qu+B/m35FFTK1ri/Gy3MZYlrVjYsxeEfBbL4HiNDwCXybB5QC7m69ifvm6spIMLjt8YBaf64z0BH6FZX4J6jlsGRptiZWwlMzuja6RkcLTUoVJGuHiiSd7QCR3IY1xP5jFy+Ngt466/JXGuuAMkx8pD2QRyOJc2pTqsLj7+i065nE6JPu6bsOfZexk7YMdj/ABozq5FNPKyOnWYXFr43NbuV2u+mgdNdfJQzIPYnSZS7aE9ugC/nmLYarKdgbMNGInTXdPd0S5zm8pJD+nG9UaTf4cs1sJDl3yM5nyNMtcaPgwyO8Nm3j+cO6PHlvXdpWtddBdKz1LI5mClPVk8DF3r1OWesXND5I5SGC/LolgcdjbAT3BO3Egc/yVUUL1+mHFza1mSJpdrmLAdtLteetbW5RiDa9IpZoJYJ4Xlk0Ekc0Lx3ZJG4Pa4fQgLzCqqPpzA5WHN4jF5SLQFuu18jR/JM3bJWfc4EKTXNPskvumxmZxrnb9huR2It+Udph2B8ttJ+9dLW4CIiAiIgIiICIiAiIgIiICIiAsHK4yjl6NihdiEkEw05vY7HXbXeR9D5fcs5EHBLGHxlTL5qDMxxQeyWGHD4+CWxGzIRvD3xVvaZWljYnaHMS8EHYGi7bcSsb7rFviG8HxZexYsQUYJY+j5WsdHNKyGTRDIRqNre2z0/glq6rxpgX5evXZ4Mk1c2YnPEH8SvOdsbYe0ObzREHllAIIB5h2Idz59S7lMpkK+WYKtHEVopX2cc5prPxEBLK9WvJYc1rufXJC/e972Hcv7uDEEH7Nxc1yFh5spGIJoRKXthxcUo/e8zXiTw5nt1G9w90Rnqefbt/wCBqNGpRuSMn579t9ezdrSGMWKUTow6CGZjD30eYnQ3za0Nco06lJPk8pczNmCaJuOY3I3qcccpDmQsEVfHx8wLhzdGOYRota4+RazJ4PgOS4hmzDpJYTRbNausDy5ktm0XNbG2YdTHvmdyu6+6Orh1CDqL9O5j6EN+4ja8g7bNOALQQHb7aJAVeYdSGyu5iwkD3W7b0BLj5fcvN7XuBBOnTSBvK3oNEgnX0AW7Bcx7q08PmxsnKCd78OTTS36eam1CWA174o9b55I2dO/VwCm1iCI4grXJsfLLRbAb1Xc1cWhI6Fw6B7XiMh2tdenmAufsqR0wy/k7os2MezxIJ7bo4asULuuqkTtNY/oADsuJAG/f6dXWh5/h6nUuOzL3vfDH78AuzA0ca7oH+Gx45Wh3fm8jrWtaOOU/RDxPa5zrT4ZWYKwXTRxzFjQ2acEutzQgEtgfvYBf7rnFxDQ/93zniKtar5a8bBc42HNtwvcSXOhkHu7312Ncp+i6EywMlvwmyx8OzEPsOe0MddkJ5nNYw++2sTrxD5n0a4rUONJo3ZWKoybxzQhMUkjiXyh0jzIYZZOznM6N338jsjbsz0aqHH09FXaqW9D26KgHQnyG/vWx0r7IjZ/a2dDWk1jjoTO4fCJhMPCB+ZHPr6FdmWrcDcP/ALAwNWKaPlv3dXchse82WRo5Yj/gGm9++z5raVsEREBERAREQEREBERAREQEREBERBQgEaPY91zzibg6Gti8x+yady3WsPhljxNeUNjoyh5fJZptcCTvp+71rr26Dk6IiD55v3mQYbhyhDYnJlMmSylmzFNCZLcRNaOFjnN8QiuGkdCep8uzepcK4yfH4mqLWn3be7tt4DeYySgcge4DqWt5Rs/NbJkcPicrE2G/UhnYx4lYJGg8jwQeZp7g9OuiN9irnVZxvlc14PX3+h/EJOhjnm7NOzv3ifhA+5U2xm3E7drqe2h36L1EFvt4Y+R5wAFczH87muslrmjr4TdlpO+nMT/oraPCnE+edk5B8KLZaSPjeRoa+nmpdUAA6DoPIDoqrMBWSRxSskilYySORpZIyRocx7XDRa5ruhBV6KjUc3w5lvBnfw5YrwWpBykXOfkYzl5dwuaCA4DQaSD0+gLeQXODuM6b3Nnwl53Xq+q0WmHfXfNCXfovo1Fn5g+c6XBnGd9zRDhbrAf57jW1YwPUunIP5LpXC/2bUMW+rfzEjbuRhe2aKKPYpV5B1BAcA5zh3BOh8um10JFcBERUEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf//Z"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+        
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              kaos kaki  
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp50.000</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://ecs7.tokopedia.net/img/cache/700/product-1/2017/9/6/0/0_5df6be4e-6c1e-40ec-9332-a6cd001c24c0_1080_819.jpg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+        
+            <img
+              src="https://ecs7.tokopedia.net/img/cache/700/product-1/2017/9/6/0/0_5df6be4e-6c1e-40ec-9332-a6cd001c24c0_1080_819.jpg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              Shin Guard
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp30.000</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://www.uniqpost.com/wp-content/uploads/2020/03/05-bukalapak.com_.jpg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+        
+            <img
+              src="https://www.uniqpost.com/wp-content/uploads/2020/03/05-bukalapak.com_.jpg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              knee pad
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp100.000</p>
+        
+              <p class="text-xs uppercase tracking-wide">2 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a 
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://www.uniqpost.com/wp-content/uploads/2020/03/08-shopee.co_.id_-2.jpg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+        
+            <img
+              src="https://www.uniqpost.com/wp-content/uploads/2020/03/08-shopee.co_.id_-2.jpg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              Roll Tape
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp35.000</p>
+        
+              <p class="text-xs uppercase tracking-wide">11 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a 
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://th.bing.com/th/id/OIP.kh-dTGj9P139burdPSQIswHaHa?w=159&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+            <img
+              src="https://th.bing.com/th/id/OIP.kh-dTGj9P139burdPSQIswHaHa?w=159&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="absolute inset-0 h-full w-5xl object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              jersey futsal 
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp199.00</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a 
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://th.bing.com/th/id/OIP.W2Odo71qEIzcwi65_hUKxQHaHa?w=178&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+            <img
+              src="https://th.bing.com/th/id/OIP.W2Odo71qEIzcwi65_hUKxQHaHa?w=178&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="absolute inset-0 h-full w-5xl object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+             Sepatu futsal ortuseight 
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp450.000</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+        <a 
+        href="https://wa.me/628290927839?text=Tyara Store saya ingin membeli produk ini" class="group block overflow-hidden">
+          <div class="relative h-[200px] sm:h-[200px]">
+            <img
+              src="https://th.bing.com/th/id/OIP.DXAWsZa6Gwx9ngclkmdQEwHaHa?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+            <img
+              src="https://th.bing.com/th/id/OIP.DXAWsZa6Gwx9ngclkmdQEwHaHa?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="absolute inset-0 h-full w-5xl object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+        
+          <div class="relative bg-white pt-3">
+            <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+             Sepatu Futsal Specs 
+            </h3>
+        
+            <div class="mt-1.5 flex items-center justify-between text-gray-900">
+              <p class="tracking-wide">Rp599.000</p>
+        
+              <p class="text-xs uppercase tracking-wide">5 Colors</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- END PRODUCT LIST  -->
+     
+      <!-- FOOTER -->
+      <footer class="bg-gray-50">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="flex justify-center text-indigo-600 sm:justify-start font-bold">
+              Tyara store
+            </div>
+      
+            <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+              Copyright &copy; 2024. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- END FOOTER -->
+</body>
+</html>
